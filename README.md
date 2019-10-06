@@ -1,9 +1,8 @@
+
 # Cache-Simulator
 One Level (L1) Cache Simulator with Least Recently Used (LRU) Replacement Algo
-
 Usage Interface:
   ./cacheSimulator <cache size> <associativity> <cache policy> <block size> <trace file>
-  
   Where:
     • <cache size> is the total size of the cache in bytes. This number should be a power of 2.
     • <associativity> is one of:
@@ -14,8 +13,6 @@ Usage Interface:
       - lru - evict the block accessed least recently in the set
     • <block size> is a power of 2 integer that specifies the size of the cache block in bytes.
     • <trace file> is the name of the trace file.
-
-
 Cache Prefetcher:
   - Technique to increase the spatial locality of the caches beyond the cache line.
   - Brings in the block corresponding to the access but also prefetches one adjacent block, which will result in one extra memory read.
