@@ -2,7 +2,7 @@
 # Cache-Simulator
 One Level (L1) Cache Simulator with Least Recently Used (LRU) Replacement Algo
 
-**(click raw view to fix viewing format issue)
+(click raw view to fix viewing format issue)
 
 Usage Interface:
   ./cacheSimulator <cache size> <associativity> <cache policy> <block size> <trace file>
