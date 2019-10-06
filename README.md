@@ -2,7 +2,7 @@
 One Level (L1) Cache Simulator with Least Recently Used (LRU) Replacement Algo
 
 Usage Interface:
-  ./cacheSimulator <> <> <>
+  ./cacheSimulator <cache size> <associativity> <cache policy> <block size> <trace file>
   
   Where:
     • <cache size> is the total size of the cache in bytes. This number should be a power of 2.
