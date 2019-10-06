@@ -28,6 +28,7 @@ Output:
   
 Example Run:
 $ ./cacheSimulator 32 assoc:2 lru 4 smallTraceFile.txt
+
 no-prefetch
 Memory reads: 336
 Memory writes: 334
